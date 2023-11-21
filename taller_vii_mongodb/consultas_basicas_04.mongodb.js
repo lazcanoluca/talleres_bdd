@@ -8,6 +8,6 @@ db.getCollection('tweets').find(
         ]
     },
     {
-        "user.name": 1
+        user: { name: true }
     }
 )
